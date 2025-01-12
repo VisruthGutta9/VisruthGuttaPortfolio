@@ -121,8 +121,9 @@ body{
 .frontend-h1{
     white-space: nowrap;
     color:rgb(9, 150, 206);
-    font-size: 1.8rem;
-    padding-bottom:1em;
+    font-size: 1.2rem;
+    padding-bottom:1.8em;
+    margin-bottom:1.5rem;
     font-family: "Open Sans", sans-serif;
     font-weight: 800;
 }
@@ -223,13 +224,13 @@ body{
 }
 .sp-head-1,h1{
     color: skyblue;
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
 }
 .sp-head-1,p{
     color: skyblue;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
 }

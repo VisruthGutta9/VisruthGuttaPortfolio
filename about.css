@@ -68,7 +68,6 @@ body{
 }
 #main-cont{
     z-index: 9999;
-   
     display:flex;
     align-items: center;
     justify-content: center;
@@ -120,8 +119,9 @@ body{
     }
 }
 .frontend-h1{
+    white-space: nowrap;
     color:rgb(9, 150, 206);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     padding-bottom:1em;
     font-family: "Open Sans", sans-serif;
     font-weight: 800;
@@ -183,7 +183,7 @@ body{
     align-items: center;
     gap: 10rem;
 }
-.link{
+.link, .colorexp{
     cursor: pointer;
     color: rgb(218, 82, 109);
 }
@@ -203,6 +203,45 @@ body{
     display: flex;
     align-items:center;
     justify-content: center;
+}
+.sam-proj-1{
+    background-color: black;
+    border:1px solid rgb(9, 150, 206);
+    border-radius: 30px;
+    box-shadow: 0 0 8px 2px rgb(9, 150, 206);
+    padding:4em;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.sp-head-1{
+    margin:5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.sp-head-1,h1{
+    color: skyblue;
+    font-size: 2.5em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+.sp-head-1,p{
+    color: skyblue;
+    font-size: 1.5em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+.sp-body-1{
+    height:auto;
+    width:900px;
+    color:white;
+    font-size: 1.5em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
 }
 .sp-head{
     margin:9.5rem;
@@ -333,7 +372,7 @@ body{
         height: 20px;
         margin:0.5px;
     }
-    .sam-proj, .AEE-exp, .clg-proj{
+    .sam-proj, .sam-proj-1, .AEE-exp, .clg-proj{
         padding:30px;
         flex-direction: column;
         max-height:400px;

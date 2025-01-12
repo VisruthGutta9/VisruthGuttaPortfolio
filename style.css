@@ -115,7 +115,6 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     margin:20rem 0;
-    
     overflow: hidden;
 }
 #homeimg{
@@ -159,7 +158,6 @@ nav a:hover{
     background-color:rgb(0, 0, 35);
     background-clip: text;
     color:transparent;
-    
 }
 .home-text-p1{
     color:rgb(109, 83, 20);

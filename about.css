@@ -380,11 +380,11 @@ body{
         max-width:370px;
         margin: 0;
     }
-    .cp-head, .sp-head,.AEE-head{
+    .cp-head, .sp-head,.AEE-head, sp-head-1{
         font-size: 15px;
         margin:5px;
     }
-    .cp-body,.sp-body,.AEE-body{
+    .cp-body,.sp-body,.AEE-body, sp-body-1{
         margin-top:4px;
         max-width:300px;
         font-size: 8px;

@@ -405,7 +405,7 @@ body{
         max-height:100%;
         margin-top: 10rem;
     }
-    #about{
+    body{
         width:100%;
     }
     #about .logos{
@@ -425,6 +425,22 @@ body{
     #new-menu{
         max-width: max-content;
         left:10%;
+    }
+    .sam-proj, .sam-proj-1, .AEE-exp, .clg-proj{
+        padding:30px;
+        flex-direction: column;
+        max-height:400px;
+        max-width:370px;
+        margin: 0;
+    }
+    .cp-head, .sp-head,.AEE-head, sp-head-1{
+        font-size: 15px;
+        margin:5px;
+    }
+    .cp-body,.sp-body,.AEE-body, sp-body-1{
+        margin-top:4px;
+        max-width:300px;
+        font-size: 8px;
     }
 }
 
